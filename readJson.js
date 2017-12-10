@@ -4,7 +4,7 @@
 $(document).ready(function () {
         // EXTRACT JSON DATA.
         $.getJSON("shekhar/domains.json", function (data) 
-        		{debugger;
+        		{
             $.each(data, function (index, value) {
                 // APPEND OR INSERT DATA TO SELECT ELEMENT.
                 $('#sel').append('<option value="' + value.domainName + '">' + value.domainName + '</option>');
