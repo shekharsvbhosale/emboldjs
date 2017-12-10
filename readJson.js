@@ -3,7 +3,7 @@
 
 $(document).ready(function () {
         // EXTRACT JSON DATA.
-        $.getJSON("http://localhost/custom/domains.json", function (data) 
+        $.getJSON("shekhar/domains.json", function (data) 
         		{debugger;
             $.each(data, function (index, value) {
                 // APPEND OR INSERT DATA TO SELECT ELEMENT.
